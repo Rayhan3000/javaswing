@@ -1,0 +1,17 @@
+
+
+package java_swing;
+
+import java.awt.Component;
+import javax.swing.JOptionPane;
+
+
+public class mssgdialog {
+
+    private static Component cmpnt;
+    
+    public static void main(String[] args) {
+        
+        JOptionPane.showMessageDialog(null, "wrong password");
+    }
+}
