@@ -1,0 +1,25 @@
+
+
+package brickbracker;
+
+import javax.swing.JFrame;
+
+
+public class gameack extends JFrame {
+    
+    public static void main(String[] args) {
+        
+        JFrame gameplay = new JFrame();
+        JFrame obj = new JFrame();
+        
+        obj.setBounds(10, 10, 700, 600);
+        obj.setSize(400, 300);
+        obj.setTitle("Breakout Ball");
+        obj.setResizable(false);
+        obj.setVisible(true);
+        obj.setLocationRelativeTo(null);
+        obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        
+    }
+}
